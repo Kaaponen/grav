@@ -1,0 +1,9 @@
+version: '1.2'
+timestamp: 1675677220
+count: 1
+index:
+  kallelahtinen:
+    storage_key: kallelahtinen
+    storage_timestamp: 1675677219
+    key: kallelahtinen
+    email: kalle.lahtinen@me.com

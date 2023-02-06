@@ -1,0 +1,35 @@
+enabled: true
+folders:
+  - pages
+  - themes
+  - plugins
+  - config
+  - data
+SyncNotice: null
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+local_repository: null
+repository: 'https://github.com/Kaaponen/grav.git'
+no_user: '0'
+user: kaaponen
+password: gitsync-def502008f0429bf3b977159d899899d0e2c6499a7fae2707e5d8fd57833b292e2625ebd2b73710dac1424951a229004a1c003290a22a0ace5a394f4d44a73746b3a79ea334db2bb0748ca652dd5a3828e030f4474cce9d352f1c8c4bd8787b01bb86be6f6016e5f616a5d5723f946d82c496c11da3820cc3b4f9364
+webhook: /_git-sync-343e62480b48
+webhook_enabled: '0'
+webhook_secret: d166318b14aa9df383a17961badd820a823cd98c2016eeae
+branch: main
+remote:
+  name: origin
+  branch: main
+git:
+  author: gituser
+  message: '(Grav GitSync) Automatic Commit'
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+  ignore: null
+  private_key: null
+logging: false
