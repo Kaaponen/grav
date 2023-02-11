@@ -1,5 +1,5 @@
 ---
-title: blog
+title: Blogi
 content:
     items:
         - '@self.children'
